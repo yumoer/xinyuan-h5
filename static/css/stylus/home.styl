@@ -1,0 +1,228 @@
+.homeContent {
+  width 100%
+  padding-right 0
+  padding-left 0
+  margin-top 72px
+  overflow hidden
+  .container {
+    .swiper-container {
+      img {
+        width 1100px
+        height 373px
+      }
+      @media screen and (orientation: portrait) {
+        img {
+          width 100%
+          height 164px
+        }
+      }
+    }
+    @media screen and (orientation: portrait) {
+      .swiper-container {
+        height 164px
+      }
+    }
+    .yumo_carousel {
+      width 100%
+      max-height 370px
+      .yumo_indicators {
+        bottom -5px
+        .yumo_generic {
+          width 12px
+          height 6px
+          background-color #fff
+          &.active {
+            background-color #ea5504
+          }
+        }
+      }
+      .carousel-inner {
+        .item {
+          img {
+            width 100%
+          }
+        }
+      }
+    }
+
+    .content_center {
+      width 100%
+      padding-left 0
+      padding-right 0
+      .center_left {
+        max-width 458px
+        height 100%
+        padding-left 0
+        padding-top 30px
+        margin-right 42px
+        .left_top {
+          height 24px
+          .top_left {
+            float left
+            height 100%
+            padding-left 0
+            a {
+              text-decoration none
+              p {
+                font-size 16px
+                font-weight bold
+                font-family "微软雅黑"
+                color #333
+                overflow hidden
+                text-overflow ellipsis
+                white-space nowrap
+              }
+            }
+
+          }
+          .top_right {
+            float right
+            width 34px
+            height 100%
+            padding-left 0
+            a {
+              font-size 12px
+              font-family "微软雅黑"
+              color #666
+              padding-top 3px
+              text-decoration none
+            }
+          }
+        }
+        .left_center {
+          height 18px
+          a{
+            text-decoration none
+            p {
+              font-size 12px
+              font-family "微软雅黑"
+              color #999
+            }
+          }
+
+        }
+        .left_bottom {
+          min-height 58px
+          a{
+            text-decoration none
+            p {
+              text-align left
+              padding-top 8px
+              font-size 12px
+              font-family "微软雅黑"
+              color #333
+              overflow hidden
+              text-overflow ellipsis
+              display -webkit-box
+              -webkit-box-orient vertical
+              -webkit-line-clamp 3
+            }
+          }
+        }
+      }
+      .center_right {
+        max-width 600px
+        padding-left 0
+        padding-right 0
+
+        .right_left {
+          width 330px
+          padding-left 0
+          padding-right 0
+          padding-top 20px
+          .el-tabs--top {
+            .is-top {
+              font-size 12px
+              .el-tabs--top .el-tabs__item.is-top:last-child
+              .el-tabs__nav-wrap {
+                &:after {
+                  width 85%
+                }
+              }
+
+            }
+            .el-tabs__header {
+              .el-tabs__nav-wrap {
+                .el-tabs__nav-scroll {
+                  .el-tabs__nav {
+                    .el-tabs__active-bar {
+                      background-color #ea5504
+                    }
+                    .el-tabs__item {
+                      font-size 12px
+                    }
+                  }
+                }
+              }
+            }
+            .el-tab-pane {
+              font-size 12px
+              font-weight bold
+              color #333
+              .contentIcon {
+                font-size 12px
+                color #333333
+                font-weight bold
+                a {
+                  width 100%
+                  font-size 12px
+                  color #333
+                  display inline-block
+                  margin-top 5px
+                  text-decoration none
+                  overflow hidden
+                  white-space nowrap
+                  text-overflow ellipsis
+                }
+              }
+            }
+          }
+        }
+        .right_right {
+          min-width 270px
+          padding-right 0
+          padding-top 30px
+          padding-left 50px
+          .right_info {
+            padding-right 0
+            padding-left 0
+            p {
+              font-size 12px
+              font-weight bold
+              color #eb6429
+              margin-top 34px
+            }
+          }
+          .right_image {
+            padding-right 0
+            padding-left 0
+            width 97px
+            height 97px
+            border 1px solid #dddddd
+            margin-left 13px
+            img {
+              padding 10px
+              width 97px
+              height 97px
+            }
+          }
+        }
+      }
+    }
+    .content_right {
+      height 124px
+      margin-top 20px
+      img {
+        display inline-block
+        float left
+        height 100%
+      }
+      @media screen and (orientation: portrait) {
+        img {
+          width 50%
+          height 100px
+        }
+      }
+    }
+  }
+}
